@@ -1,0 +1,12 @@
+.flex-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
+}
+
+.flex-list li {
+  flex: 0 0 20%; /* Each item will take up 20% of the container's width */
+  box-sizing: border-box; /* Ensures padding and borders are included in the width */
+  padding: 5px; /* Adjust padding as needed */
+}
